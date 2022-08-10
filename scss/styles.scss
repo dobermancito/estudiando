@@ -1,201 +1,185 @@
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+  
+  body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; }
+  
+  ul {
+    list-style: none; }
+  
+  .header {
+    background-color: white; }
+  
+  .header__logo {
+    display: inline; }
+  
+  .header__nav {
+    display: flex; }
+  
+  .header__item a {
+    color: black;
+    text-decoration: none; }
+  
+  .header__lista {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0 16px; }
+  
+  .banner {
+    width: auto;
+    height: 1100px;
+    background-size: cover; }
+  
+  .banner__texto {
+    height: 100%;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  
+  /* CSS de tecnicas */
+
+.tecnica{
+    
+&__titulouno {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font: bold;
+    font-size: 25px; 
 }
 
-body {
-background-color: black;
-color: #fff;
-font-family: 'Roboto', sans-serif;
+&__titulodos {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 25px; 
 }
 
-ul {
-list-style: none;
+&__card--img {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px; 
 }
 
-.header {
-background-color: white;
+&__esquema {
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    border-radius: 5px; 
 }
 
-.header__logo {
-display: inline;
+&__resumen {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 5px; 
 }
 
-.header__nav {
-display: flex;
+&__pomodoro {
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 5px;
+}
 }
 
-.header__item a {
-color: black;
-text-decoration: none;
-}
-
-.header__lista {width: 100vw;
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
-list-style: none;
-padding: 0 16px;
-}
-
-.banner {
-width: auto;
-height: 1100px;
-background-size: cover;
-}
-
-.banner__texto {
-height: 100%;
-font-weight: bold;
-color: black;
-text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-/* CSS de tecnicas */
-.titulo__tecnica {
-font-weight: bold;
-color: white;
-text-align: center;
-padding: 25px;
-}
-
-.texto__resumen {
-text-align: left;
-}
-
-.titulotecnicas {
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
-
-.titulo__tecnica {
-height: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-color: black;
-font: bold;
-font-size: 25px;
-}
-
-.tecnica__card--img {
-width: 500px;
-height: 300px;
-background-size: cover;
-background-position: center;
-border-radius: 5px;
-}
-
-.tecnica__esquema {
-padding: 20px;
-margin: 10px;
-font-weight: bold;
-color: white;
-position: relative;
-overflow: hidden;
-background-size: contain;
-background-position: center;
-text-align: center;
-border-radius: 5px;
-}
-
-.tecnica__resumen {
-display: flex;
-flex-direction: row-reverse;
-padding: 20px;
-margin: 10px;
-font-weight: bold;
-color: white;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: center;
-text-align: center;
-border-radius: 5px;
-}
-
-.tecnica__pomodoro {
-padding: 20px;
-margin: 10px;
-font-weight: bold;
-color: white;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: center;
-text-align: center;
-border-radius: 5px;
-}
-
-/* CSS de materias */
-.carrousel__materias {
-height: auto;
-width: 500px;
-margin: center;
-}
-
-.titulo__materia {
-font-weight: bold;
-color: white;
-text-align: center;
-padding: 25px;
-}
-
-.contenedor {
-width: auto;
-max-width: auto;
-margin: auto;
-padding: 40px 0;
-}
-
-.contenedor__materias {
-width: 100%;
-}
-
-.materia__biologia {
-border-radius: 10px;
-min-height: 200px;
-font-weight: bold;
-padding: 20px;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: auto;
-}
-
-.materia__geografia {
-border-radius: 10px;
-min-height: 200px;
-font-weight: bold;
-padding: 20px;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: auto;
-}
-
-.materia__historia {
-border-radius: 10px;
-min-height: 200px;
-font-weight: bold;
-padding: 20px;
-position: relative;
-overflow: hidden;
-background-size: cover;
-background-position: auto;
-}
-
-.textos {
-height: 90%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center; 
+  /* CSS de materias */
+  .carrousel__materias {
+    height: auto;
+    width: 500px;
+    margin: center; 
+  }
+  
+  .titulo__materia {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 25px; 
+  }
+  
+  .contenedor {
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    padding: 40px 0; 
+  }
+  
+  .contenedor__materias {
+    width: 100%; 
+  }
+  
+  .materia__biologia {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: auto; 
+  }
+  
+  .materia__geografia {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: auto; 
+  }
+  
+  .materia__historia {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: auto; 
+  }
+  
+  .textos {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
 }

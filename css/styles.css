@@ -47,22 +47,7 @@ ul {
   justify-content: center; }
 
 /* CSS de tecnicas */
-.titulo__tecnica {
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  padding: 25px; }
-
-.texto__resumen {
-  text-align: left; }
-
-.titulotecnicas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
-
-.titulo__tecnica {
+.tecnica__titulouno {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -71,6 +56,12 @@ ul {
   color: black;
   font: bold;
   font-size: 25px; }
+
+.tecnica__titulodos {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 25px; }
 
 .tecnica__card--img {
   width: 500px;
